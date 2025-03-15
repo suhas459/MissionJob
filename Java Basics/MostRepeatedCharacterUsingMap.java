@@ -21,6 +21,7 @@ public static void main(String[] args) {
 			mostRepeatedChar = entry.getKey();
 		}
 	}
-	System.out.println("most repeated character is"+mostRepeatedChar);
+	System.out.println("most repeated character is "+mostRepeatedChar);
 }
 }
+ 

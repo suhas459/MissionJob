@@ -1,8 +1,5 @@
-
-
 import java.util.HashSet;
 import java.util.Set;
-
 public class Demo {
 	public static void main(String[] args) {
 //		{4, 5, 6, 7, 4, 5, 8, 9, 4, 6, 10}
@@ -23,12 +20,11 @@ public class Demo {
 				count++;
 				visited[j] =1;
 				sb.append(j).append(", ");}
-			}
-			
+			}		
 			if(count>1) {
 //			sb.setLength(sb.length()-2);
 			System.out.println(ele + "is repeated "+ count+ "times at positions "+sb);
-			
+			//ending
 		}
 			}
 	}
